@@ -3,7 +3,7 @@
 
 ## EasyImage 简单图床
 > 支持多文件上传,异地上传,api上传,简单无数据库,返回图片url,markdown,bbscode,html的一款图床程序
-演示地址： [https://img.545141.com](https://img.545141.com"https://img.545141.com")
+演示地址：[https://img.545141.com](https://img.545141.com "PHP多图长传程序2.4.3")
 之前一直用的图床程序是:[PHP多图长传程序2.4.3](http://www.mycodes.net/48/4925.htm "PHP多图长传程序2.4.3")
 由于版本过老并且使用falsh上传，在当前html5流行大势所趋下，遂利用基础知识新写了一个以html5为默认上传并且支持flash,向下兼容至IE9。
 
@@ -91,7 +91,7 @@ header('Access-Control-Allow-Origin:https://A.com/')
 - 全新的压缩 将文件继续缩小
 - 全新的目录系统，精简代码
 - 设置仅允许在config.php修改，注释更加明了，即使没有代码基础也可以操作
-- 增加新的文件管理系统，感谢 tinyfilemanager
+- 增加新的文件管理系统，支持增删改查
 - ~~支持文字/图片水印 可自定义文字颜色~~
 - ~~支持文字水印背景颜色~~
 - ~~支持文字水印透明度~~
