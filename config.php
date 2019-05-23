@@ -54,11 +54,11 @@ $config = array(
     // 水印文字方向 h水平 v垂直
      'textDirection' => 'h',
     // 水印文字颜色
-     'textColor' => '#DC143C',
+     'textColor' => '#778899',
     // 水印文字大小
      'textSize' => 16,
-    // 字体大小或字体的相对路径
-     'textFont' => APP_ROOT.'/public/static/imitationSong.ttf',
+    // 字体路径 如果想改变字体，请选择支持中文的 gb2312
+     'textFont' => APP_ROOT.'/public/static/hkxzy.ttf',
     // 水印边距 px
      'textPadding' => 10,
     // 水印透明度
@@ -72,7 +72,7 @@ $config = array(
     // 设置JPEG图像的压缩质量（默认值：85）
      'zipJPEG' => 85,
     // 使用imagejpeg压缩 0为关闭输入值0-1，值越大质量越高
-    'jpg_zip_php'=>0.8,
+    'jpg_zip_php'=>0.9,
     //最大宽度
      'maxWidth' => 10240,
     // 最大高度

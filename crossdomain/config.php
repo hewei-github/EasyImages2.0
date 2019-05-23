@@ -54,11 +54,11 @@ $config = array(
     // 水印文字方向 h水平 v垂直
      'textDirection' => 'h',
     // 水印文字颜色
-     'textColor' => '#DC143C',
+     'textColor' => '#778899',
     // 水印文字大小
      'textSize' => 16,
-    // 字体大小或字体的相对路径
-     'textFont' => APP_ROOT.'/public/static/imitationSong.ttf',
+    // 字体路径 如果想改变字体，请选择支持中文的 gb2312
+     'textFont' => APP_ROOT.'/public/static/hkxzy.ttf',
     // 水印边距 px
      'textPadding' => 10,
     // 水印透明度
