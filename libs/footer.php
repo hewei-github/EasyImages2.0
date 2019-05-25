@@ -35,7 +35,7 @@ echo '
   <footer class="text-muted small col-md-12" style="text-align: center">
    '.showAD('bot').'
   <hr />
-      Copyright © 2018-'. date('Y').' EasyImage Powered By <code><a href="https://www.545141.com/easyimage.html" target="_blank">icret</a></code> Verson: '.$config['Version'].@$qqgroup.'
+      Copyright © 2018-'. date('Y').' EasyImage Powered By <code><a href="https://www.545141.com/easyimage2.html" target="_blank">icret</a></code> Verson: '.$config['Version'].@$qqgroup.'
   </footer>
 </body>
 </html>
