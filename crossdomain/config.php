@@ -1,6 +1,6 @@
 <?php
 /**
- * EasyImage - 简单图床
+ * EasyImage - 简单图床异域存储配置
  *
  * @author icret
  * @email  lemonim@qq.com
@@ -67,12 +67,9 @@ $config = array(
      'waterImg' => 'public/static/watermark.png',
     // 转换图片为指定格式 可选：''|'png'|'jpeg'|'gif'|'bmp';默认值：''
      'imgConvert' => '',
-    // 设置PNG图像的压缩级别，介于1（快速但大文件）和9（慢速但较小的文件）之间 默认值：null
-     'zipPNG' => null,
-    // 设置JPEG图像的压缩质量（默认值：85）
-     'zipJPEG' => 85,
-    // 使用imagejpeg压缩 0为关闭输入值0-1，值越大质量越高
-    'jpg_zip_php'=>0.8,
+     // 是否通过缩放来压缩，如果要保持源图比例，把参数$percent保持为1，范围 0.1-1
+    // 即使原比例压缩，也可大幅度缩小。如果缩小比例，则体积会更小。
+    'imgcompress_percent' => 0.9,
     //最大宽度
      'maxWidth' => 10240,
     // 最大高度
